@@ -1,0 +1,35 @@
+* {
+    box-sizing: content-box;
+}
+
+body {
+    background-color: rgb(223, 223, 223);
+}
+
+.contenedor {
+    width: 850px;
+    display: grid;
+    grid-template-columns: 20% 640px;
+    align-items: center;
+}
+
+.boardCont {
+    width: 640px;
+}
+
+.board {
+    background-color: white;
+    box-shadow: 0px 0px 10px;
+}
+
+.btn {
+    width: 100px;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    box-shadow: 0px 0px 5px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-weight: bold;
+}
+
